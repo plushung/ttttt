@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE movie[
+<!ELEMENT movie (title*,audi*,sex+,type)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT audi (#PCDATA)>
+<!ELEMENT sex (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ATTLIST movie gps CDATA #REQUIRED>
+]>
+<movie ax="wxr" ps="man">
+<title> tmovie </title>
+<audi>nmv </audi>
+<sex> female </sex>
+<type> fun </type>
+</movie>
